@@ -68,7 +68,7 @@ public class Main {
 
         public String login(String email, String password){
             if(email.toLowerCase().equalsIgnoreCase(this.email.toLowerCase()) && password.toLowerCase().equalsIgnoreCase(this.password.toLowerCase())){
-                return "Youu have succesfully logged in";
+                return "You have succesfully logged in";
             }else{
                 return "Login denied";
             }
